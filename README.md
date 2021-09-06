@@ -32,6 +32,13 @@ Visualize the Results.
 
 ## Technologies
 
+import pandas as pd
+import hvplot.pandas
+from path import Path
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+
 The following packages and dependicies are needed for the proper functioning of the application:
 ### **numpy:**<br>  
 NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
