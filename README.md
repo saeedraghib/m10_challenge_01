@@ -32,7 +32,6 @@ Visualize the Results.
 
 ## Technologies
 
-import pandas as pd
 import hvplot.pandas
 from path import Path
 from sklearn.cluster import KMeans
@@ -40,14 +39,11 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 The following packages and dependicies are needed for the proper functioning of the application:
-### **numpy:**<br>  
-NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+
 ### **pandas**:<br>
-pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
-### **sqlalchemy:**<br>  
-SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
+### **Path**:<br>
+### **sklearn**:<br>
 ### **hvplot:**<br>
-hvPlot provides a high-level plotting API built on HoloViews that provides a general and consistent API for plotting data in all the abovementioned formats.
 <br>
 
 ---
@@ -55,7 +51,7 @@ hvPlot provides a high-level plotting API built on HoloViews that provides a gen
 ## Usage
 
 In order to run the program, type the following at the terminal prompt:
-* ### python sr_etf_analyzer.ipynb
+* ### python sr_crypto_investments.ipynb
 
 ---
 
